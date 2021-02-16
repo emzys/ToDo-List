@@ -15,7 +15,7 @@
 body {
   display: flex;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 40px;
   font-family: 'Montserrat', sans-serif;
   background-color: var(--light);
 }
@@ -133,12 +133,13 @@ h1 {
   align-items: center;
   flex-direction: column;
   position: fixed;
-  bottom: 20px;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
-  width: 800px;
+  transform: translate(-50%, -50%);
+  width: 850px;
   color: var(--light);
   background-color: var(--light-dark);
+  box-shadow: 4px 4px 5px rgba(79, 82, 92, .4);
   border-radius: 5px;
 }
 
